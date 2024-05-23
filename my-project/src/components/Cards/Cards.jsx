@@ -6,15 +6,17 @@ function Cards() {
    
     <div class=" w-[300px] rounded-md border">
   <img
-    src="https://images.pexels.com/photos/23719481/pexels-photo-23719481/free-photo-of-chrysanthemum-flower.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-    alt="Laptop"
+    src="https://images.pexels.com/photos/3184634/pexels-photo-3184634.jpeg?auto=compress&cs=tinysrgb&w=600"
+    alt="Error loading image"
     class="h-[200px] w-full rounded-md object-cover"
   />
   <div class="p-4">
-    <h1 class="text-lg font-semibold">About Macbook</h1>
+    <h1 class="text-lg font-semibold">ABC Internship</h1>
     <p class="mt-3 text-sm text-gray-600">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-      debitis?
+      Skills : MS Office, Power BI <br />
+      Duration : 3 Months <br />
+      Stipend : 7500/- <br />
+      Experience required : 0 to 3 months
     </p>
     <button
       type="button"
@@ -27,5 +29,7 @@ function Cards() {
     </>
   )
 }
+
+
 
 export default Cards
