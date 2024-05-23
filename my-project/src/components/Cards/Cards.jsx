@@ -6,7 +6,7 @@ function Cards() {
    
     <div class=" w-[300px] rounded-md border">
   <img
-    src="https://images.pexels.com/photos/23881778/pexels-photo-23881778/free-photo-of-on-a-cloudy-day-at-the-lakefront-of-keswick-england.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+    src="https://images.pexels.com/photos/23719481/pexels-photo-23719481/free-photo-of-chrysanthemum-flower.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
     alt="Laptop"
     class="h-[200px] w-full rounded-md object-cover"
   />

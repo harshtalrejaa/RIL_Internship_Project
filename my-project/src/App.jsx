@@ -12,7 +12,7 @@ function App() {
     <>
      <FormBuilder/>
      {/* <Form/> */}
-     {/* <Cards/> */}
+     <Cards/>
 
     </>
   )
