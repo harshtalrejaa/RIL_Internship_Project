@@ -11,7 +11,6 @@ function App() {
   return (
     <>
      <Cards/>
-     
      <FormBuilder/>
      {/* <Form/> */}
 
