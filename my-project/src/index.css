@@ -75,3 +75,8 @@ button:focus-visible {
   width: 200px;
   height: 400px;
 }
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
