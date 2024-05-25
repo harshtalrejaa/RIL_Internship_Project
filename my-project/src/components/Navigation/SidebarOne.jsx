@@ -195,7 +195,9 @@ function SideBarOne() {
       </div>
     </nav>
   </div>
-</aside>
+<div>
+  </div>
+  </aside>
 
     </div>
   )
