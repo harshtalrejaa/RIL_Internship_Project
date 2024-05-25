@@ -1,8 +1,9 @@
 import React from 'react';
-
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 function SignButton() {
   return (
     <div>
+      
       <style>
         {`
           .top-right {
@@ -12,6 +13,14 @@ function SignButton() {
           }
         `}
       </style>
+      <header>
+      <SignedOut>
+        <SignInButton />
+      </SignedOut>
+      <SignedIn>
+        <UserButton />
+      </SignedIn>
+    </header>
     </div>
   );
 }
