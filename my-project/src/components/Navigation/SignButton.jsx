@@ -2,17 +2,7 @@ import React from 'react';
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 function SignButton() {
   return (
-    <div>
-      
-      <style>
-        {`
-          .top-right {
-            position: fixed;
-            top: 30px;
-            right: 30px;
-          }
-        `}
-      </style>
+    <div className='Button'>
       <header>
       <SignedOut>
         <SignInButton />

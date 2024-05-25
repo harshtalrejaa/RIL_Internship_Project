@@ -80,3 +80,8 @@ button:focus-visible {
   flex-wrap: wrap;
   gap: 50px;
 }
+.Button{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
