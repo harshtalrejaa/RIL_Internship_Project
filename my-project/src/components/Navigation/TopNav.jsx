@@ -6,7 +6,7 @@ function TopNav() {
         <div>
             <header>
                 <nav>
-                    <div class="left">Jio</div>
+                    <div class="left">Reliance Jio Programs</div>
                     <div class="right">
                         <ul>
                             <li><a href="/">Home</a></li>

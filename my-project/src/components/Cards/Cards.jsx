@@ -24,7 +24,7 @@ function Cards() {
             className="h-[200px] w-full rounded-md object-cover"
           />
           <div className="p-4">
-            <h1 className="text-lg font-semibold">Internship A</h1>
+            <h1 className="text-lg font-semibold text-black">Internship A</h1>
             <p className="mt-3 text-sm text-gray-600">
               3 months <br />
               Mumbai <br />
@@ -47,7 +47,7 @@ function Cards() {
             className="h-[200px] w-full rounded-md object-cover"
           />
           <div className="p-4">
-            <h1 className="text-lg font-semibold">Internship B</h1>
+            <h1 className="text-lg font-semibold text-black">Internship B</h1>
             <p className="mt-3 text-sm text-gray-600">
               6 months <br />
               Navi Mumbai <br />
@@ -70,7 +70,7 @@ function Cards() {
             className="h-[200px] w-full rounded-md object-cover"
           />
           <div className="p-4">
-            <h1 className="text-lg font-semibold">Internship C</h1>
+            <h1 className="text-lg font-semibold text-black">Internship C</h1>
             <p className="mt-3 text-sm text-gray-600">
               2 months <br />
               Hyderabad <br />
@@ -93,7 +93,7 @@ function Cards() {
             className="h-[200px] w-full rounded-md object-cover"
           />
           <div className="p-4">
-            <h1 className="text-lg font-semibold">Internship D</h1>
+            <h1 className="text-lg font-semibold text-black">Internship D</h1>
             <p className="mt-3 text-sm text-gray-600">
               2 months <br />
               Delhi <br />
@@ -116,7 +116,7 @@ function Cards() {
             className="h-[200px] w-full rounded-md object-cover"
           />
           <div className="p-4">
-            <h1 className="text-lg font-semibold">Internship E</h1>
+            <h1 className="text-lg font-semibold text-black">Internship E</h1>
             <p className="mt-3 text-sm text-gray-600">
               4 months <br />
               Mumbai <br />
@@ -138,7 +138,7 @@ function Cards() {
             className="h-[200px] w-full rounded-md object-cover"
           />
           <div className="p-4">
-            <h1 className="text-lg font-semibold">Internship F</h1>
+            <h1 className="text-lg font-semibold text-black">Internship F</h1>
             <p className="mt-3 text-sm text-gray-600">
               3 months <br />
               Pune <br />

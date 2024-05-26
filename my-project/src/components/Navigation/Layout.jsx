@@ -3,6 +3,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import SignButton from './SignButton';
 import TopNav from './TopNav';
+import Footer from './Footer';
 
 const Layout = () => {
   return (
@@ -11,6 +12,7 @@ const Layout = () => {
         <TopNav/>
         <SignButton/>
         <Outlet />
+        <Footer/>
       </div>
     </div>
   );
