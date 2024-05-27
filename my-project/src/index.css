@@ -88,7 +88,7 @@ button:focus-visible {
 
 .container {
   width: 155vh;
-  margin: 90px 83px;
+  margin: 20px 83px;
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
@@ -99,7 +99,7 @@ button:focus-visible {
 .formcontainer {
   width: 100%;
   /* margin: 90px 83px; */
-  margin-top: 100px;
+  margin-top: 30px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -119,12 +119,18 @@ button:focus-visible {
 .Signbutton {
   position: fixed;
   top: 15px;
-  right: 40px;
+  right: 48px;
   padding: 0.8px 0.8px;
 }
 
-.Formcontainer {
-  margin: 64px 2px;
+.topnav{
+  background-color: rgb(15,60,201);
+  padding: 19px 20px;
+  justify-content: space-evenly;
+  position: relative;
+  top: -5vh;
+  width: 100%;
+  margin: 0px 0px;
 }
 
 .footer {

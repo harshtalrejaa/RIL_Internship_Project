@@ -15,7 +15,7 @@ function Footer() {
                     <div class="footer-text">
                         <ul>
                             <li><strong>Support</strong></li>
-                            <li>my account</li>
+                            <li>My account</li>
                             <li>Feedback</li>
                             <li>Contact us</li>
                         </ul>

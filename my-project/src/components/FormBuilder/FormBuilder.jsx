@@ -100,7 +100,7 @@ function FormBuilder() {
             </div>
 
             <div className="sm:col-span-3">
-              <label htmlFor="country" className="block text-sm font-medium leading-6 text-black">Country</label>
+              <label htmlFor="country" className="block text-sm font-medium leading-6 text-black">State</label>
               <div className="mt-2">
                 <select
                   id="country"
@@ -110,15 +110,34 @@ function FormBuilder() {
                   onChange={handleChange}
                   className="block w-full rounded-md border-0 py-1.5 text-black-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
                 >
-                  <option>India</option>
-                  <option>Canada</option>
-                  <option>Mexico</option>
+                  <option>Andhra Pradesh</option>
+                  <option>Arunachal Pradesh</option>
+                  <option>Assam</option>
+                  <option>Bihar</option>
+                  <option>Chhattisgarh</option>
+                  <option>Goa</option>
+                  <option>Haryana</option>
+                  <option>Gujarat</option>
+                  <option>Himachal Pradesh</option>
+                  <option>Maharashtra</option>
+                  <option>Manipur</option>
+                  <option>Meghalaya</option>
+                  <option>Mizoram</option>
+                  <option>Nagaland</option>
+                  <option>Punjab</option>
+                  <option>Rajasthan</option>
+                  <option>Sikkim</option>
+                  <option>Tamil Nadu</option>
+                  <option>Telangana</option>
+                  <option>Tripura</option>
+                  <option>Uttar Pradesh</option>
+                  <option>Uttarakhand</option>
                 </select>
               </div>
             </div>
 
             <div className="col-span-full">
-              <label htmlFor="street-address" className="block text-sm font-medium leading-6 text-black">Street address</label>
+              <label htmlFor="street-address" className="block text-sm font-medium leading-6 text-black">Address</label>
               <div className="mt-2">
                 <input
                   type="text"
@@ -148,7 +167,7 @@ function FormBuilder() {
             </div>
 
             <div className="sm:col-span-2">
-              <label htmlFor="region" className="block text-sm font-medium leading-6 text-black">State / Province</label>
+              <label htmlFor="region" className="block text-sm font-medium leading-6 text-black">Contact</label>
               <div className="mt-2">
                 <input
                   type="text"
@@ -163,7 +182,7 @@ function FormBuilder() {
             </div>
 
             <div className="sm:col-span-2">
-              <label htmlFor="postal-code" className="block text-sm font-medium leading-6 text-black">ZIP / Postal code</label>
+              <label htmlFor="postal-code" className="block text-sm font-medium leading-6 text-black">Link to Resume</label>
               <div className="mt-2">
                 <input
                   type="text"
