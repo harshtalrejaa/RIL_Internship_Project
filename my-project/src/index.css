@@ -23,12 +23,16 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
-
+#root {
+  width: 100%;
+}
 body {
   background-color: white;
+  width: 100%;
   margin: 0px 0px;
   display: flex;
   place-items: center;
@@ -52,9 +56,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -65,94 +71,97 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
 }
-.img{
+
+.img {
   width: 200px;
   height: 400px;
 }
-.container{
+
+.container {
   width: 155vh;
-  margin: 65px 70px;
+  margin: 90px 83px;
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
   border-width: 25px;
   border: #1a1a1a;
 }
-.Button{
-    position: fixed;
-    top: 22px;
-    right: 30px;
-}
 
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 70px;
-  background-color: rgb(10,40,133);
-  position: fixed;
-  top: 0;
-  width: 114%;
-  margin-left: -175px;
-}
-
-nav ul {
+.formcontainer {
+  width: 100%;
+  /* margin: 90px 83px; */
+  margin-top: 100px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  border-width: 25px;
+  border: #1a1a1a;
 }
 
-nav ul li {
-  list-style: none;
-  margin: 0 23px;
+.Button {
+  position: fixed;
+  top: 10px;
+  right: 36px;
+  padding: 6px 4vh;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: white;
+.Signbutton {
+  position: fixed;
+  top: 15px;
+  right: 40px;
+  padding: 0.8px 0.8px;
 }
 
-nav ul li a:hover {
-  color: rgb(199, 110, 201);
-  font-size: 1.04rem;
-}
-
-.left {
-  font-size: 1.5rem;
+.Formcontainer {
+  margin: 64px 2px;
 }
 
 .footer {
-  background-color: rgb(122, 122, 126);
+  background-color: rgb(88, 88, 90);
   display: flex;
-  height: 180px;
-  padding: 23px 100px;
+  height: 140px;
+  padding: 12px 100px;
   justify-content: space-evenly;
 }
-.footer-first{
-  font-size: 6px;
+
+.footer-first {
+  font-size: 4px;
   display: flex;
   align-items: center;
 }
+
+.footer-text {
+
+  font-size: 18px;
+}
+
 .footer ul {
   list-style: none;
 }
-.footer > div {
+
+.footer>div {
   width: 223px;
 }
+
 footer .footer-rights {
   color: gray;
   text-align: center;
   background-color: #3a3838;
   padding: 4px 0;
 }
-.fcontainer{
-    margin-bottom: -32px;
-    width: 100%;
+
+.fcontainer {
+  margin-bottom: -32px;
+  width: 100%;
 }

@@ -6,31 +6,31 @@ function Footer() {
             <footer className='fcontainer'>
                 <div class="footer">
                     <div class="footer-first">
-                        <h1>Address : <br/>
-                        Rs, Tc-22, Thane - Belapur Rd, Reliance Corporate Park,
-                        Ghansoli, Navi Mumbai, Maharashtra 400701
+                        <h1><strong>ADDRESS : </strong>
+                            Rs, Tc-22, Thane - Belapur Rd, Reliance Corporate Park,
+                            Ghansoli, Navi Mumbai, Maharashtra 400701
 
                         </h1>
                     </div>
-                    <div class="footer-second">
+                    <div class="footer-text">
                         <ul>
-                            <li>Support</li>
+                            <li><strong>Support</strong></li>
                             <li>my account</li>
                             <li>Feedback</li>
                             <li>Contact us</li>
                         </ul>
                     </div>
-                    <div class="footer-third">
+                    <div class="footer-text">
                         <ul>
-                            <li>Our Company</li>
+                            <li><strong>Our Company</strong></li>
                             <li>Reliance Industries</li>
                             <li>Reliance Foundations</li>
                             <li>Careers</li>
                         </ul>
                     </div>
-                    <div class="footer-fourth">
+                    <div class="footer-text">
                         <ul>
-                            <li>Useful Links</li>
+                            <li><strong>Useful Links</strong></li>
                             <li>Jio AutoPay</li>
                             <li>Sitemap</li>
                             <li>Services</li>

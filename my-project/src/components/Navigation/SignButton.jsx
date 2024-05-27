@@ -2,7 +2,7 @@ import React from 'react';
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 function SignButton() {
   return (
-    <div className='Button'>
+    <div className='Signbutton'>
       <header>
       <SignedOut>
         <SignInButton />

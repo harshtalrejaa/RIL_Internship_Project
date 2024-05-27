@@ -17,7 +17,7 @@ function Cards() {
   return (
     <>
       <div className="container">
-        <div className="w-[300px] rounded-md border">
+        <div className="w-[300px] rounded-md border-2 border-black">
           <img
             src="https://images.pexels.com/photos/1181568/pexels-photo-1181568.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Error"
@@ -40,7 +40,7 @@ function Cards() {
             </button>
           </div>
         </div>
-        <div className="w-[300px] rounded-md border">
+        <div className="w-[300px] rounded-md border-2 border-black">
           <img
             src="https://images.pexels.com/photos/6476186/pexels-photo-6476186.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Laptop"
@@ -63,7 +63,7 @@ function Cards() {
             </button>
           </div>
         </div>
-        <div className="w-[300px] rounded-md border">
+        <div className="w-[300px] rounded-md border-2 border-black">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuGvsKI9do6CvYNIdztB1dLuUUGGgy-eLtaw&s"
             alt="Laptop"
@@ -86,7 +86,7 @@ function Cards() {
             </button>
           </div>
         </div>
-        <div className="w-[300px] rounded-md border">
+        <div className="w-[300px] rounded-md border-2 border-black">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4Lo8XU5YSQ2jzo5eKd8ajjWQ17eilCHKgA&s"
             alt="Laptop"
@@ -109,7 +109,7 @@ function Cards() {
             </button>
           </div>
         </div>
-        <div className="w-[300px] rounded-md border">
+        <div className="w-[300px] rounded-md border-2 border-black">
           <img
             src="https://images.pexels.com/photos/3747455/pexels-photo-3747455.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="Laptop"
@@ -131,7 +131,7 @@ function Cards() {
             </button>
           </div>
         </div>
-        <div className="w-[300px] rounded-md border">
+        <div className="w-[300px] rounded-md border-2 border-black">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc-rSo6KDmN6hZp4o3Isvrn9it8RQODvy9cw&s"
             alt="Laptop"
