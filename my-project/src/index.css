@@ -89,6 +89,8 @@ button:focus-visible {
 .container {
   width: 155vh;
   margin: 20px 83px;
+  margin-top: 23px;
+  margin-bottom: 45px;
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
@@ -111,14 +113,14 @@ button:focus-visible {
 
 .Button {
   position: fixed;
-  top: 10px;
-  right: 36px;
+  top: 28px;
+  right: 35px;
   padding: 6px 4vh;
 }
 
 .Signbutton {
   position: fixed;
-  top: 15px;
+  top: 28px;
   right: 48px;
   padding: 0.8px 0.8px;
 }

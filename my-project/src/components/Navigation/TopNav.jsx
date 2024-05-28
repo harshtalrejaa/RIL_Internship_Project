@@ -7,15 +7,15 @@ function TopNav() {
             <div className="topnav">
             <div class="relative w-full bg-blue">
                 <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
-                    <div class="inline-flex items-center space-x-2">
+                    <div class="inline-flex items-center space-x-2 mt-5">
                         <span class="font-bold">Reliance  JIO</span>
                     </div>
                     <div class="hidden grow items-start lg:flex">
-                        <ul class="ml-12 inline-flex space-x-8">
+                        <ul class="ml-12 inline-flex space-x-8 mt-5">
                             <li>
                                 <a
                                     href="#"
-                                    class="font-bold text-white-800 hover:text-gray-900"
+                                    class="font-bold text-white hover:text-gray-500"
                                 >
                                     Home
                                 </a>
@@ -23,7 +23,7 @@ function TopNav() {
                             <li>
                                 <a
                                     href="#"
-                                    class="font-bold text-white-800 hover:text-gray-900"
+                                    class="font-bold text-white hover:text-gray-500"
                                 >
                                     About
                                 </a>
@@ -31,7 +31,7 @@ function TopNav() {
                             <li>
                                 <a
                                     href="#"
-                                    class="font-bold text-white-800 hover:text-gray-900"
+                                    class="font-bold text-white hover:text-gray-500"
                                 >
                                     Contact
                                 </a>
