@@ -173,3 +173,32 @@ footer .footer-rights {
   margin-bottom: -32px;
   width: 100%;
 }
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.job-list{
+  display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 100px;
+    width: 100%;
+}
+.adminForm{
+  color: black;
+  
+  
+}
+.adminForm div{
+  display: flex;
+  justify-content: center;
+   margin: 30px;
+   font-size: 20px;
+}
+.adminForm button{
+  color: white;
+}
+.adminForm h2{
+  font-size: 34px;
+}

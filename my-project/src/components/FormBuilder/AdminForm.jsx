@@ -39,7 +39,7 @@ const AdminForm = () => {
   };
 
   return (
-    <div>
+    <div className='adminForm'>
       <h2>Add New Job</h2>
       <form onSubmit={handleSubmit}>
         <div>

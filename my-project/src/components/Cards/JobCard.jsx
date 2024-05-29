@@ -3,10 +3,11 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const JobCard = ({ title, description, imageSource, id }) => {
+    
   return (
     <div className="w-[300px] rounded-md border">
       <img
-        src={imageSource}
+        src='https://static.realme.net/page/offer/images/Jio-194e345e69.jpg'
         alt="Job"
         className="h-[200px] w-full rounded-md object-cover"
       />

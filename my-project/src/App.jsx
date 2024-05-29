@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import './App.css';
 import FormBuilder from './components/FormBuilder/FormBuilder';
@@ -34,11 +33,12 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route index element={<SignButton />} />
+          
           {/* <Route path="FormBuilder" element={<FormBuilder />} /> */}
         </Route>
         <Route path='/Admin' element = {<AdminLayout></AdminLayout>}/>
         <Route path='/AdminForm' element = {<AdminForm></AdminForm>}/>
-        <Route path="/" element={<JobCard />} />
+        {/* <Route path="/" element={<JobCard />} /> */}
         <Route path="/:jobId/:jobTitle/" element={<FormBuilder />} />
       </>
     )

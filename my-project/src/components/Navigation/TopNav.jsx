@@ -1,7 +1,17 @@
 // import './index.css';
 import React from 'react'
-
+import { NavLink,useNavigate  } from 'react-router-dom'
+import { useAuth } from '@clerk/clerk-react';
 function TopNav() {
+    const navigate = useNavigate();
+    const { isSignedIn } = useAuth();
+    const handleClick = () => {
+        if (isSignedIn) {
+          navigate('/AdminForm');
+        } else {
+          alert('Please log in');
+        }
+      };
     return (
         <div>
             <div className="topnav">
@@ -25,7 +35,12 @@ function TopNav() {
                                     href="#"
                                     class="font-bold text-white hover:text-gray-500"
                                 >
-                                    About
+                                   <NavLink
+                                
+                                onClick={handleClick}
+                                >
+                                     Create Form
+                                 </NavLink>
                                 </a>
                             </li>
                             <li>
