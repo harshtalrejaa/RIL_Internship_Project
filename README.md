@@ -2,7 +2,7 @@
 ![Logo](https://indocanadaeducation.org/wp-content/uploads/2016/05/Reliance-Jio-Logo-e1520793735167.png)
 # RIL Internship Project
 
-A project for 1 month internship provided by Jio.
+A project for 1 month internship provided by Jio to under grad students.
 
 Team Members: 
 1) Harshal Talreja
