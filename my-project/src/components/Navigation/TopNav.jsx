@@ -38,15 +38,17 @@ function TopNav() {
                                         Home
                                     </a>
                                 </li>
-                                <li>
-                                    <NavLink
-                                        to="#" // Change this back to "#"
-                                        onClick={handleClick}
-                                        className="font-bold text-white hover:text-gray-500"
-                                    >
-                                        Create Form
-                                    </NavLink>
-                                </li>
+                                {isSignedIn && userId === 'user_2hDpsa04NmsUdqC86ukoY9y5FZy' && (
+                                    <li>
+                                        <NavLink
+                                            to="#" // Change this to the actual path if needed
+                                            onClick={handleClick}
+                                            className="font-bold text-white hover:text-gray-500"
+                                        >
+                                            Create Form
+                                        </NavLink>
+                                    </li>
+                                )}
                                 <li>
                                     <a
                                         href="#"
