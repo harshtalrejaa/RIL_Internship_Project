@@ -6,11 +6,9 @@ function FormBuilder() {
     firstName: '',
     lastName: '',
     email: '',
-    country: 'India',
-    streetAddress: '',
-    city: '',
-    region: '',
-    postalCode: ''
+    state: '',
+    employee: '',
+    contact: '',
   });
 
   function handleChange(e) {
@@ -38,11 +36,9 @@ function FormBuilder() {
       firstName: '',
       lastName: '',
       email: '',
-      country: 'India',
-      streetAddress: '',
-      city: '',
-      region: '',
-      postalCode: ''
+      state: 'India',
+      employee: '',
+      contact: '',
     });
   }
 
@@ -100,13 +96,13 @@ function FormBuilder() {
             </div>
 
             <div className="sm:col-span-3">
-              <label htmlFor="country" className="block text-sm font-medium leading-6 text-black">State</label>
+              <label htmlFor="state" className="block text-sm font-medium leading-6 text-black">State</label>
               <div className="mt-2">
                 <select
-                  id="country"
-                  name="country"
-                  autoComplete="country-name"
-                  value={formData.country}
+                  id="state"
+                  name="state"
+                  autoComplete="state-name"
+                  value={formData.state}
                   onChange={handleChange}
                   className="block w-full rounded-md border-0 py-1.5 text-black-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
                 >
@@ -138,14 +134,14 @@ function FormBuilder() {
 
 
             <div className="sm:col-span-2 sm:col-start-1">
-              <label htmlFor="city" className="block text-sm font-medium leading-6 text-black">Employee ID</label>
+              <label htmlFor="employee" className="block text-sm font-medium leading-6 text-black">Employee ID</label>
               <div className="mt-2">
                 <input
                   type="text"
-                  name="city"
-                  id="city"
+                  name="employee"
+                  id="employee"
                   autoComplete="address-level2"
-                  value={formData.city}
+                  value={formData.employee}
                   onChange={handleChange}
                   className="block w-full rounded-md border-0 py-1.5 text-black-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -153,14 +149,14 @@ function FormBuilder() {
             </div>
 
             <div className="sm:col-span-2">
-              <label htmlFor="region" className="block text-sm font-medium leading-6 text-black">Contact</label>
+              <label htmlFor="contact" className="block text-sm font-medium leading-6 text-black">Contact</label>
               <div className="mt-2">
                 <input
                   type="text"
-                  name="region"
-                  id="region"
+                  name="contact"
+                  id="contact"
                   autoComplete="address-level1"
-                  value={formData.region}
+                  value={formData.contact}
                   onChange={handleChange}
                   className="block w-full rounded-md border-0 py-1.5 text-black-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
