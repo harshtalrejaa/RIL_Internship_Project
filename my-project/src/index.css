@@ -18,6 +18,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*Media tags*/
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -27,9 +43,13 @@ a {
 a:hover {
   color: #535bf2;
 }
+
 #root {
   width: 100%;
 }
+
+
+/* Main Page CSS Start */
 body {
   background-color: white;
   width: 100%;
@@ -66,21 +86,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
 .img {
   width: 200px;
   height: 400px;
@@ -100,7 +105,6 @@ button:focus-visible {
 
 .formcontainer {
   width: 100%;
-  /* margin: 90px 83px; */
   margin-top: 30px;
   margin-bottom: 50px;
   display: flex;
@@ -119,14 +123,14 @@ button:focus-visible {
 }
 
 .Signbutton {
-  position: fixed;
+  position: absolute;
   top: 28px;
   right: 48px;
   padding: 0.8px 0.8px;
 }
 
-.topnav{
-  background-color: rgb(15,60,201);
+.topnav {
+  background-color: rgb(15, 60, 201);
   padding: 19px 20px;
   justify-content: space-evenly;
   position: relative;
@@ -173,32 +177,44 @@ footer .footer-rights {
   margin-bottom: -32px;
   width: 100%;
 }
+
+/* Main Page CSS Start */
+
+
+
+
+/* Admin Form CSS Start */
 .card {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.job-list{
+
+.job-list {
   display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin: 100px;
-    width: 100%;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0px;
+  width: 100%;
 }
-.adminForm{
+
+.adminForm {
   color: black;
-  
-  
 }
-.adminForm div{
+
+.adminForm div {
   display: flex;
   justify-content: center;
-   margin: 30px;
-   font-size: 20px;
+  margin: 30px;
+  font-size: 20px;
 }
-.adminForm button{
+
+.adminForm button {
   color: white;
 }
-.adminForm h2{
+
+.adminForm h2 {
   font-size: 34px;
 }
+
+/* Admin Form CSS End */
