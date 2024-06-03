@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
-// import axios from 'axios';
+import { db } from '../../../firebaseConfig';
+import { collection, addDoc } from "firebase/firestore"; 
+import { useParams, useNavigate } from 'react-router-dom';
 
 function FormBuilder() {
+  const { jobTitle, jobId } = useParams(); // Get jobTitle and jobId from URL params
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -19,16 +22,14 @@ function FormBuilder() {
     });
   }
 
-  function submit(e) {
+  async function submit(e) {
     e.preventDefault();
-    // Replace with your actual backend endpoint
-    // axios.post('https://your-backend-endpoint.com/api/save', formData)
-    // .then(response => {
-    //   console.log('Data saved successfully:', response.data);
-    // })
-    // .catch(error => {
-    //   console.error('There was an error saving the data!', error);
-    // });
+    try {
+      const docRef = await addDoc(collection(db,jobTitle), formData);
+      console.log("Document written with ID: ", docRef.id);
+    } catch (e) {
+      console.error("Error adding document: ", e);
+    }
   }
 
   function cancel(e) {
@@ -47,7 +48,6 @@ function FormBuilder() {
       <form className="text-black-900" onSubmit={submit}>
         <div className="border-b border-gray-900/10 pb-12">
           <h2 className="text-base font-semibold leading-7 text-black">Personal Information</h2>
-          {/* <p className="mt-1 text-sm leading-6 text-black">Use a permanent address where you can receive mail.</p> */}
 
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-3">
@@ -132,7 +132,6 @@ function FormBuilder() {
               </div>
             </div>
 
-
             <div className="sm:col-span-2 sm:col-start-1">
               <label htmlFor="employee" className="block text-sm font-medium leading-6 text-black">Employee ID</label>
               <div className="mt-2">
@@ -162,7 +161,6 @@ function FormBuilder() {
                 />
               </div>
             </div>
-
           </div>
         </div>
         <div className="mt-6 flex items-center justify-end gap-x-6">

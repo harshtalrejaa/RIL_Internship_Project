@@ -13,6 +13,7 @@ import 'firebase/firestore';
 import HomePage from './pages/Homepage';
 import JobCard from './components/Cards/Cards';
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyDf4MfMWs8ssZMDHuD_rwej_Y838_RTn1k",
   authDomain: "ril-internship-project.firebaseapp.com",
@@ -40,6 +41,7 @@ function App() {
         <Route path='/AdminForm' element = {<AdminForm></AdminForm>}/>
         {/* <Route path="/" element={<JobCard />} /> */}
         <Route path="/:jobId/:jobTitle/" element={<FormBuilder />} />
+        <Route path='/exportData' element = {<exportData></exportData>}/>
       </>
     )
   );
