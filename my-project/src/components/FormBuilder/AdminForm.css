@@ -1,0 +1,35 @@
+/* Admin Form CSS Start */
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .job-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0px;
+    width: 100%;
+  }
+  
+  .adminForm {
+    color: black;
+  }
+  
+  .adminForm div {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 20px;
+  }
+  
+  .adminForm button {
+    color: white;
+  }
+  
+  .adminForm h2 {
+    font-size: 34px;
+  }
+  
+  /* Admin Form CSS End */

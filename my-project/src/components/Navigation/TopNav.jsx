@@ -1,4 +1,5 @@
 import React from 'react';
+import './TopNav.css';
 import { NavLink } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@clerk/clerk-react';

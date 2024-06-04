@@ -1,0 +1,23 @@
+.Button {
+    position: fixed;
+    top: 28px;
+    right: 35px;
+    padding: 6px 4vh;
+  }
+  
+  .Signbutton {
+    position: absolute;
+    top: 28px;
+    right: 48px;
+    padding: 0.8px 0.8px;
+  }
+  
+  .topnav {
+    background-color: rgb(15, 60, 201);
+    padding: 19px 20px;
+    justify-content: space-evenly;
+    position: relative;
+    top: -5vh;
+    width: 100%;
+    margin: 0px 0px;
+  }
