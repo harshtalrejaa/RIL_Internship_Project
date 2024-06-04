@@ -23,9 +23,13 @@ function FormBuilder() {
   }
 
   async function submit(e) {
-    // e.preventDefault();
+   
     try {
+      alert("Application Submitted!")
       const docRef = await addDoc(collection(db,jobTitle), formData);
+      if(e){
+        e.preventDefault();
+      }
       console.log("Document written with ID: ", docRef.id);
     } catch (e) {
       console.error("Error adding document: ", e);
