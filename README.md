@@ -23,5 +23,5 @@ Web Development, Problem solving, Creative approach
 
 **Deployed using:** Vercel
 
-**Other Tools:** VS studio, Discord, Excaligraphy 
+**Other Tools:** VS studio, Discord, Excaligraphy, Canva
 
