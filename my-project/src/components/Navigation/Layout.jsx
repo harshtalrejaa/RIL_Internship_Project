@@ -13,16 +13,19 @@ const Layout = () => {
   return (
     <div className="layout">
       <div className="main-content">
-      <TopNav/>
-        <Hero/>
+        <TopNav />
+        <Hero />
+        <div className="section-divider"></div> 
         <Title subTitle="Get to know company" title="About Us" />
-        <SignButton/>
-        <About/>
+        <SignButton />
+        <About />
+        <div className="section-divider"></div> 
         <Title subTitle="Apply here" title="Postings" />
         <Outlet />
+        <div className="section-divider"></div> 
         <Title subTitle="Contact Us" title="Get In Touch" />
-        <Contact/>
-        <Footer/>
+        <Contact />
+        <Footer />
       </div>
     </div>
   );
