@@ -1,23 +1,54 @@
 .Button {
-    position: fixed;
-    top: 28px;
-    right: 35px;
-    padding: 6px 4vh;
-  }
-  
-  .Signbutton {
-    position: absolute;
-    top: 28px;
-    right: 48px;
-    padding: 0.8px 0.8px;
-  }
-  
-  .topnav {
-    background-color: rgb(15, 60, 201);
-    padding: 19px 20px;
-    justify-content: space-evenly;
-    position: relative;
-    top: -5vh;
-    width: 100%;
-    margin: 0px 0px;
-  }
+  position: fixed;
+  top: 28px;
+  right: 35px;
+  padding: 6px 4vh;
+}
+
+.Signbutton {
+  position: absolute;
+  top: 23px;
+  right: 48px;
+  padding: 0 0;
+}
+
+.topnav {
+  background-color: #DBE0E4;
+  padding: 19px 20px;
+  justify-content: space-evenly;
+  position: relative;
+  top: 0vh;
+  height: 11vh;
+  width: 100%;
+  margin: 0px 0px;
+}
+
+
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 16px;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: #0A2986;
+}
+
+.topnav a:hover {
+  color: #555;
+}
+
+.logo {
+  width: 93px;
+  height: 93px;
+  position: absolute;
+  top: -12px;
+}

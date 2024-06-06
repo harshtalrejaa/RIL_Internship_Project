@@ -63,13 +63,13 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  border-radius: 40px;
+  border: -10px solid transparent;
+  padding: 5.6px 14.2px;
+  font-size: 13px;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #0A2986;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -89,9 +89,8 @@ button:focus-visible {
 }
 
 .container {
-  width: 155vh;
-  margin: 20px 83px;
-  margin-top: 23px;
+  width: 100%;
+  margin: 0px 0px;
   margin-bottom: 45px;
   display: flex;
   flex-wrap: wrap;
