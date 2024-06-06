@@ -30,7 +30,7 @@ const app = initializeApp(firebaseConfig);
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <>
+      <Route>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route index element={<SignButton />} />
@@ -41,8 +41,9 @@ function App() {
         <Route path='/AdminForm' element = {<AdminForm></AdminForm>}/>
         {/* <Route path="/" element={<JobCard />} /> */}
         <Route path="/:jobId/:jobTitle/" element={<FormBuilder />} />
-        <Route path='/exportData' element = {<exportData></exportData>}/>
-      </>
+        <Route path='/AdminForm' element = {<AdminForm></AdminForm>}/>
+        
+      </Route>
     )
   );
 
