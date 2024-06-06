@@ -23,40 +23,36 @@ function TopNav() {
         }
     };
 
+    const handleSmoothScroll = (event, target) => {
+        event.preventDefault();
+        const element = document.getElementById(target);
+        if (element) {
+            window.scrollTo({
+                top: element.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    };
+
     return (
         <div>
-            <nav className='topnav'>
-                <img src={logo} alt="" className="logo" />
-                <ul>
-                    <li>
-                        <Link to="hero" smooth={true} offset={0} duration={500}>Home</Link>
-                    </li>
-                    {isSignedIn && userId === 'user_2hDpsa04NmsUdqC86ukoY9y5FZy' && (
-                        <li>
-                            <NavLink
-                                to="#"
-                                onClick={handleClick}>
-                                Create Form
-                            </NavLink>
-                        </li>
-                    )}
-                    <li>
-                        <Link to="about" smooth={true} offset={-150} duration={500}>About</Link>
-                    </li>
-                    <li>
-                        <Link to="campus" smooth={true} offset={-260} duration={500}>Postings</Link>
-                    </li>
-                    <li>
-                        <Link to="contact"
-                            smooth={true}
-                            offset={0}
-                            duration={500} >Contact</Link>
-
-
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav className='topnav'>
+            <ul>
+                <li>
+                    <a href="#" onClick={(e) => handleSmoothScroll(e, 'hero')}>Home</a>
+                </li>
+                <li>
+                    <a href="#" onClick={(e) => handleSmoothScroll(e, 'about')}>About</a>
+                </li>
+                <li>
+                    <a href="#" onClick={(e) => handleSmoothScroll(e, 'campus')}>Postings</a>
+                </li>
+                <li>
+                    <a href="#" onClick={(e) => handleSmoothScroll(e, 'contact')}>Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     );
 }
 
