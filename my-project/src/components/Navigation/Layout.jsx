@@ -3,7 +3,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import SignButton from './SignButton';
 import TopNav from './TopNav';
-import Footer from './Footer';
+import Footer from '../Footer/Footer';
 import Hero from '../Hero/Hero';
 import Title from '../Title/Title';
 import About from '../About/About';
