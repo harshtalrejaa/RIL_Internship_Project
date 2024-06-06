@@ -29,7 +29,9 @@
   }
   
   footer .footer-rights {
-    color: gray;
+    color: black;
+    font-size: 13px;
+    font-weight: 200;
     text-align: center;
     background-color: #DBE0E4;
     padding: 4px 0;

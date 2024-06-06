@@ -1,6 +1,6 @@
 import React from 'react';
 import './TopNav.css';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@clerk/clerk-react';
 import logo from '../../assets/Jio.png';
@@ -26,10 +26,10 @@ function TopNav() {
     return (
         <div>
             <nav className='topnav'>
-            <img src={logo} alt="" className="logo" />
+                <img src={logo} alt="" className="logo" />
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <Link to="hero" smooth={true} offset={0} duration={500}>Home</Link>
                     </li>
                     {isSignedIn && userId === 'user_2hDpsa04NmsUdqC86ukoY9y5FZy' && (
                         <li>
@@ -41,17 +41,18 @@ function TopNav() {
                         </li>
                     )}
                     <li>
-                        <a href="#">About</a>
+                        <Link to="about" smooth={true} offset={-150} duration={500}>About</Link>
                     </li>
                     <li>
-                        <a href="#">Postings</a>
+                        <Link to="campus" smooth={true} offset={-260} duration={500}>Postings</Link>
                     </li>
                     <li>
-                        <a
-                            href="#"
-                        >
-                            Contact
-                        </a>
+                        <Link to="contact"
+                            smooth={true}
+                            offset={0}
+                            duration={500} >Contact</Link>
+
+
                     </li>
                 </ul>
             </nav>
