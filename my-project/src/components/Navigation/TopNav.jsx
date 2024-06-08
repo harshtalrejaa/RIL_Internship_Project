@@ -37,6 +37,7 @@ function TopNav() {
     return (
         <div>
         <nav className='topnav'>
+        <img src={logo} alt="" className="logo" />
             <ul>
                 <li>
                     <a href="#" onClick={(e) => handleSmoothScroll(e, 'hero')}>Home</a>
