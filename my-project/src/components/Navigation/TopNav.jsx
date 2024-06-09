@@ -69,13 +69,13 @@ function TopNav() {
                         </li>
                     )}
                     <li>
-                        <a href="#" onClick={(e) => handleSmoothScroll(e, 'about',196)}>About</a>
+                        <a href="#" onClick={(e) => handleSmoothScroll(e, 'about',176)}>About</a>
                     </li>
                     <li>
-                        <a href="#" onClick={(e) => handleSmoothScroll(e, 'postings',215)}>Postings</a>
+                        <a href="#" onClick={(e) => handleSmoothScroll(e, 'postings',196)}>Postings</a>
                     </li>
                     <li>
-                        <a href="#" onClick={(e) => handleSmoothScroll(e, 'contact',199)}>Contact</a>
+                        <a href="#" onClick={(e) => handleSmoothScroll(e, 'contact',179)}>Contact</a>
                     </li>
                 </ul>
             </nav>
