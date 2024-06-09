@@ -13,6 +13,7 @@
 }
 
 .play-icon {
+    display: none;
     width: 60px;
     position: absolute;
     top: 50%;

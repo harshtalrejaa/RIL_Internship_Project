@@ -5,6 +5,7 @@ import play_icon from "../../assets/play-icon.png";
 
 const About = () => {
     return (
+        <section id="about">
         <div className="about">
             <div className="about-left">
                 <img src={about_img} alt="" className="about-img" />
@@ -31,6 +32,7 @@ const About = () => {
                 </p>
             </div>
         </div>
+        </section>
     );
 };
 

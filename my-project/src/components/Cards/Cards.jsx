@@ -19,6 +19,9 @@ const Card = ({ title, description, imageSource, id }) => {
   };
 
   return (
+    <section id='postings'>
+
+    
     <div className="flex flex-wrap">
       <div className="w-[300px] rounded-md border m-4">
         <img
@@ -41,6 +44,7 @@ const Card = ({ title, description, imageSource, id }) => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

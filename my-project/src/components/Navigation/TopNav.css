@@ -10,6 +10,8 @@
   top: 23px;
   right: 48px;
   padding: 0 0;
+  position: fixed;
+  z-index: 10;
 }
 
 .topnav {
