@@ -19,25 +19,22 @@
 }
 
 .job-card-text {
-    height: 200px;
     width: 100%;
-    padding: 10px 15px;
+    padding: 10px 20px;
 }
 
-.title {
+.job-card-text h1{
     text-align: center;
     color: #000000;
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
+    padding-bottom: 5px;
 }
 
-.description {
+.job-card-text p {
     font-size: 0.875rem;
     color: #4a5568;
-    flex: 1;
-    overflow: hidden;
-    text-overflow: ellipsis; 
 }
 
 .jobcard-apply-button {
