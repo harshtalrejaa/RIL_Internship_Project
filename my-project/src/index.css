@@ -129,8 +129,3 @@ button:focus-visible {
   width: 20px;
   margin-left: 10px;
 }
-
-.section-divider {
-  border-top: 1px solid #ccc;
-  margin: 20px 0; 
-}
