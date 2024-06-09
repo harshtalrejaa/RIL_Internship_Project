@@ -31,7 +31,7 @@ const Card = ({ title, description, imageSource, id }) => {
             <h1 class="title">{title}</h1>
             <p class="description">{description}</p>
 
-            <button type="button" class="jobcard-apply-button" onclick="handleClick()">
+            <button type="button" class="jobcard-apply-button"  onClick={handleClick}>
               Apply
             </button>
           </div>
