@@ -35,8 +35,6 @@ const Contact = () => {
 
   return (
     <section id="contact">
-
-    
     <div className="contact">
       <div className="contact-col">
         <h3>

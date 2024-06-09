@@ -6,6 +6,7 @@
   }
   
   .job-list {
+    background-color: #E3F0FF;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
