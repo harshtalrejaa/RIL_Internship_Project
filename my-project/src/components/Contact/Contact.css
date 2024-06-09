@@ -1,9 +1,10 @@
 .contact {
-    margin: 55px auto;
-    max-width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background: #FFFFFF;
+  padding: 3vh 9vh;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   }
   
   .contact-col {

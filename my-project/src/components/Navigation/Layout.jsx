@@ -15,12 +15,12 @@ const Layout = () => {
       <div className="main-content">
         <TopNav />
         <Hero />
-        <Title subTitle="Get to know company" title="About Us" />
+        <Title subTitle="Get to know company" title="About Us" bgColor="#FFFFFF" />
         <SignButton />
         <About /> 
-        <Title subTitle="Apply here" title="Postings" />
+        <Title subTitle="Apply here" title="Postings" bgColor="#E3F0FF" />
         <Outlet />
-        <Title subTitle="Contact Us" title="Get In Touch" />
+        <Title subTitle="Get in touch" title="Contact Us" bgColor="#FFFFFF" />
         <Contact />
         <Footer />
       </div>

@@ -13,16 +13,16 @@
 }
 
 .topnav {
-  background-color: #DBE0E4;
+  background-color: #E3F0FF;
   padding: 19px 20px;
   justify-content: space-evenly;
-  position: relative;
+  position: fixed;
   top: 0vh;
   height: 11vh;
   width: 100%;
   margin: 0px 0px;
+  z-index: 10;
 }
-
 
 .topnav ul {
   list-style-type: none;
@@ -44,6 +44,11 @@
 
 .topnav a:hover {
   color: #555;
+}
+
+.dark-nav {
+  background: #DBE0E4;
+  transition: 0.5s;
 }
 
 .logo {
