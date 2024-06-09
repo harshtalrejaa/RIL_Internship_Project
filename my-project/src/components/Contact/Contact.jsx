@@ -60,7 +60,7 @@ const Contact = () => {
           <li>
             {" "}
             <img src={location_icon} alt="" />
-            Reliance Corporate Park, Elastomer<br/> Business Group, 8A-FF,Thane Belapur Road, <br/> Ghansoli, Navi Mumbai, Maharashtra 400701
+            Reliance Corporate Park, Elastomer Business <br/> Group, 8A-FF,Thane Belapur Road,  Ghansoli,<br/> Navi Mumbai, Maharashtra. Pin - 400701
           </li>
         </ul>
       </div>

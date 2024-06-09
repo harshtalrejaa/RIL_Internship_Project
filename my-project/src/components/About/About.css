@@ -1,6 +1,6 @@
 .about {
-    margin: 52px auto;
     display: flex;
+    padding: 3vh 9vh;
     align-items: center;
     justify-content: space-between;
     width: 90%;
