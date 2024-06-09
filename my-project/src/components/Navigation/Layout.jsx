@@ -18,7 +18,7 @@ const Layout = () => {
         <Title subTitle="Get to know company" title="About Us" bgColor="#FFFFFF" />
         <SignButton />
         <About /> 
-        <Title subTitle="Apply here" title="Postings" bgColor="#E3F0FF" />
+        <Title subTitle="Apply here" title="Postings" bgColor="#BAD9FF" />
         <Outlet />
         <Title subTitle="Get in touch" title="Contact Us" bgColor="#FFFFFF" />
         <Contact />

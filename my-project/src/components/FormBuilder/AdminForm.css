@@ -1,19 +1,20 @@
 /* Admin Form CSS Start */
 .card {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-  
-  .job-list {
-    background-color: #E3F0FF;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin: 0px;
-    width: 100%;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.job-list {
+  background-color: #BAD9FF;
+  padding: 3vh 9vh;
+  color: black;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+}
   .adminForm {
     color: black;
   }
