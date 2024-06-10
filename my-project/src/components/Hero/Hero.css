@@ -1,7 +1,8 @@
 .hero {
     width: 100%;
     min-height: 100vh;
-    background: #BAD9FF;
+    background: url("../../assets/home page.png");
+    background-size: 100%;
     background-position: center;
     color: #fff;
     display: flex;
