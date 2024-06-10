@@ -3,7 +3,7 @@
     border: 1px solid hsl(0, 100%, 1%);
     border-radius: 8px; 
     max-width: 600px;
-    max-height: 700px;
+    max-height: 720px;
     margin: 0 auto;
     margin-bottom: 33px;
     margin-top: 33px;
@@ -14,4 +14,12 @@
     color: #0A2986;
     font-size: 25px;
     font-weight: 500;
+}
+
+.choose{
+    color: black;
+    position: relative;
+    top: 17vh;
+    right: 58vh;
+    white-space: nowrap;
 }
