@@ -44,7 +44,7 @@ const AdminForm = () => {
       <h2>Add New Job</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="jobTitle">Job Title:</label>
+          <label htmlFor="jobTitle">Job Title - </label>
           <input
             type="text"
             id="jobTitle"
@@ -54,7 +54,7 @@ const AdminForm = () => {
           />
         </div>
         <div>
-          <label htmlFor="jobDescription">Job Description:</label>
+          <label htmlFor="jobDescription">Job Description - </label>
           <textarea
             id="jobDescription"
             value={jobDescription}
@@ -64,7 +64,7 @@ const AdminForm = () => {
         </div>
         <button type="submit">Add Job</button>
       </form>
-    </div>
+      </div>
   );
 };
 
