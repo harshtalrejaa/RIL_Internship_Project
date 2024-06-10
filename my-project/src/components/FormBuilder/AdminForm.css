@@ -10,25 +10,30 @@
 }
 
 .adminForm {
+  background-color: #edeff1;
   color: black;
-  height: 92vh;
+  height: 80vh;
   width: 50%;
   margin-left: 300px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   display: flex;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .adminForm input {
   background: white;
   border: 2px solid black;
+  margin-left: -100px;
+  margin-top: 10px;
 }
 
 .adminForm textarea {
   background: white;
   border: 2px solid black;
+  margin-left: -150px;
+  margin-top: 10px;
 }
 
 .adminForm div {
@@ -38,12 +43,26 @@
   font-size: 20px;
 }
 
+.jobTitle{
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.jobDescription{
+  color: black;
+  font-size: 20px;
+  font-weight: 500; 
+}
+
 .adminForm button {
   color: white;
 }
 
 .adminForm h2 {
-  font-size: 34px;
+  color: #0A2986;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 /* Admin Form CSS End */

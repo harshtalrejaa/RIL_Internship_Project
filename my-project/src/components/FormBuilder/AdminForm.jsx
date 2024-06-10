@@ -43,24 +43,28 @@ const AdminForm = () => {
     <div className='adminForm'>
       <h2>Add New Job</h2>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="jobTitle">Job Title - </label>
-          <input
-            type="text"
-            id="jobTitle"
-            value={jobTitle}
-            onChange={(e) => setJobTitle(e.target.value)}
-            required
-          />
+        <div className='jobTitle' >
+          <label htmlFor="jobTitle">Job Title </label>
+          <div className="mt-2 ">
+            <input
+              type="text"
+              id="jobTitle"
+              value={jobTitle}
+              onChange={(e) => setJobTitle(e.target.value)}
+              required
+            />  
+          </div>
         </div>
-        <div>
-          <label htmlFor="jobDescription">Job Description - </label>
-          <textarea
-            id="jobDescription"
-            value={jobDescription}
-            onChange={(e) => setJobDescription(e.target.value)}
-            required
-          />
+        <div className='jobDescription'>
+          <label htmlFor="jobDescription">Job Description</label>
+          <div className="mt-2 ">
+            <textarea
+              id="jobDescription"
+              value={jobDescription}
+              onChange={(e) => setJobDescription(e.target.value)}
+              required
+            />
+        </div>
         </div>
         <button type="submit">Add Job</button>
       </form>
