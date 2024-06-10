@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { db } from '../../../firebaseConfig';
 import { collection, addDoc } from "firebase/firestore"; 
 import { useParams } from 'react-router-dom';
+import './FormBuilder.css';
 
 function FormBuilder() {
   const { jobTitle } = useParams(); // Get jobTitle from URL params
@@ -89,6 +90,7 @@ function FormBuilder() {
   }
 
   return (
+    <div className="formdesign">
     <div className="formcontainer">
       <form className="text-black-900" onSubmit={submit}>
         <div className="border-b border-gray-900/10 pb-12">
@@ -227,10 +229,11 @@ function FormBuilder() {
 
         {/* Buttons */}
         <div className="mt-6 flex items-center justify-end gap-x-6">
-          <button type="button" onClick={cancel} className="text-sm font-semibold leading-6 text-black">Cancel</button>
-          <button type="submit" className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
+          <button type="button" onClick={cancel} className="text-sm bg-#85878b-600 font-semibold leading-6 text-white">Cancel</button>
+          <button type="submit" className="rounded-md bg-#0A2986-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
         </div>
       </form>
+    </div>
     </div>
   );
 }

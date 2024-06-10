@@ -1,0 +1,17 @@
+.formdesign{
+    background-color: #edeff1; 
+    border: 1px solid hsl(0, 100%, 1%);
+    border-radius: 8px; 
+    max-width: 600px;
+    max-height: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.formdesign h2{
+    color: #0A2986;
+    font-size: 25px;
+    font-weight: 500;
+}
