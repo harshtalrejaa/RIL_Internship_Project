@@ -6,6 +6,11 @@
   justify-content: space-evenly;
 }
 
+.footer a{
+  color: black;
+  font-weight: 350;
+}
+
 .footer-first {
   font-size: 5px;
   display: flex;

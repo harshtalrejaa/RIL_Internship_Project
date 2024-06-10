@@ -18,31 +18,30 @@ function Footer() {
                             <li> <a href="https://www.linkedin.com/company/jioplatforms/"><img src={linkedin} alt="Linkedin" /></a> </li>
                             <li> <a href="https://www.youtube.com/channel/UC7x7gqeQQ5dazPAvDgC7TIw"><img src={youtube} alt="Youtube" /></a> </li>
                         </ul>
-
                         </h1>
                     </div>
                     <div class="footer-text">
                         <ul>
                             <li><strong>Support</strong></li>
-                            <li>My account</li>
-                            <li>Feedback</li>
-                            <li>Contact us</li>
+                            <li><a href="">My account</a></li>
+                            <li><a href="https://www.jio.com/en-in/survey/feedback.html">Feedback</a></li>
+                            <li><a href="https://www.jio.com/help/contact-us#/">Contact us</a></li>
                         </ul>
                     </div>
                     <div class="footer-text">
                         <ul>
                             <li><strong>Our Company</strong></li>
-                            <li>Reliance Industries</li>
-                            <li>Reliance Foundations</li>
-                            <li>Careers</li>
+                            <li><a href="https://www.ril.com/">Reliance Industries</a></li>
+                            <li><a href="https://reliancefoundation.org/">Reliance Foundations</a></li>
+                            <li><a href="https://careers.jio.com/?_ga=2.178446564.1907743366.1718033486-230595145.1718033486">Careers</a></li>
                         </ul>
                     </div>
                     <div class="footer-text">
                         <ul>
                             <li><strong>Useful Links</strong></li>
-                            <li>Jio AutoPay</li>
-                            <li>Sitemap</li>
-                            <li>Services</li>
+                            <li><a href="https://www.jio.com/selfcare/autopay/">Jio AutoPay</a></li>
+                            <li><a href="https://www.jio.com/jcms/sitemap/">Sitemap</a></li>
+                            <li><a href="https://www.jio.com/jcms/jiostories/">JioLife</a></li>
                         </ul>
                     </div>
                 </div>
