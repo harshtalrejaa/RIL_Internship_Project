@@ -3,11 +3,11 @@
     border: 1px solid hsl(0, 100%, 1%);
     border-radius: 8px; 
     max-width: 600px;
-    max-height: 800px;
+    max-height: 700px;
     margin: 0 auto;
+    margin-bottom: 33px;
+    margin-top: 33px;
     padding: 20px;
-    position: relative;
-    top: 10px;
 }
 
 .formdesign h2{
