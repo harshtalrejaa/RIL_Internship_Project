@@ -1,9 +1,9 @@
 .hero {
     width: 100%;
     min-height: 100vh;
-    background: url("../../assets/home page.png");
+    background: url("../../assets/JIO Internship (1).png");
     background-size: 100%;
-    background-position: center;
+    background-position:bottom center;
     color: #fff;
     display: flex;
     align-items: center;
@@ -11,9 +11,9 @@
   }
 
   .hero-img{
-    flex-basis: 30%;
+    flex-basis: 24%;
     position: relative;
-    right: -6%;
+    right: -7%;
     top: 8px;
   }
   
