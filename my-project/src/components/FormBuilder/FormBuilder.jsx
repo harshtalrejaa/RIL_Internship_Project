@@ -216,7 +216,7 @@ function FormBuilder() {
                 />
               </div>
             </div>
-            <div className='choose'>Or choose from a file here (Please upload csv files only)</div>
+            <div className='choose'></div>
             {/* CSV File Upload */}
             <input
               type="file"
