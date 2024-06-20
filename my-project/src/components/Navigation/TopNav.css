@@ -16,7 +16,7 @@
 }
 
 .topnav {
-  background-color: #BAD9FF;
+  /*background-color: #BAD9FF;*/
   padding: 19px 20px;
   justify-content: space-evenly;
   position: fixed;
@@ -50,7 +50,7 @@
 }
 
 .dark-nav {
-  background: #DBE0E4;
+  background: #edeeff;
   transition: 0.5s;
 }
 
