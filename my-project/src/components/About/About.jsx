@@ -10,7 +10,7 @@ const About = () => {
                 <img src={about_img} alt="" className="about-img" />
             </div>
             <div className="about-right">
-                <h3>Reliance Infocomm Limited</h3>
+                <h3>Reliance Industries Limited</h3>
                 <p>
                     Reliance Industries Limited is an Indian multinational conglomerate headquartered in Mumbai.
                     Its businesses include energy, petrochemicals, natural gas, retail, entertainment, telecommunications,

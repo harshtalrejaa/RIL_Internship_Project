@@ -27,7 +27,7 @@ function TopNav() {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            window.scrollY > 50 ? setSticky(true) : setSticky(false);
+            window.scrollY > 100 ? setSticky(true) : setSticky(false);
         });
         // Clean up the event listener on unmount
         return () => {
