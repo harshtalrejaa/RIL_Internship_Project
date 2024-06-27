@@ -32,7 +32,28 @@
     position: absolute;
     left: 13%;
     top: 46%;
+  }
 
+  .hero-btn {
+    background: #fff;
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    right: 58vh;
+  }
+
+  .hero-btn img{
+    width: 20px;
+    margin: 2px 5px;
   }
   
   /* Media queries */

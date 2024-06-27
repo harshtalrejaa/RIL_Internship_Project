@@ -27,7 +27,7 @@ function TopNav() {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            window.scrollY > 50 ? setSticky(true) : setSticky(false);
+            window.scrollY > 100 ? setSticky(true) : setSticky(false);
         });
         // Clean up the event listener on unmount
         return () => {
@@ -72,7 +72,7 @@ function TopNav() {
                         <a href="#" onClick={(e) => handleSmoothScroll(e, 'about',186)}>About</a>
                     </li>
                     <li>
-                        <a href="#" onClick={(e) => handleSmoothScroll(e, 'postings',206)}>Postings</a>
+                        <a href="#" onClick={(e) => handleSmoothScroll(e, 'postings',218)}>Postings</a>
                     </li>
                     <li>
                         <a href="#" onClick={(e) => handleSmoothScroll(e, 'contact',185)}>Contact</a>

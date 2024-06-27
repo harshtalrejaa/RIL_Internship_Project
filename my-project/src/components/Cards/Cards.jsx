@@ -78,7 +78,7 @@ const Card = ({ title, description, imageSource, id }) => {
   };
 
   return (
-    <section style={cardStyle}>
+    <section id='postings' style={cardStyle}>
       <div>
         <img
           src="/src/assets/Jio.png" // Replace with your logo image source
