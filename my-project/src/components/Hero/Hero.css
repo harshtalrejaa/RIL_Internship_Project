@@ -16,26 +16,39 @@
   }
   
   .hero-text h1 {
-    font-size: 60px;
-    font-weight: 550;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
     color: #000000;
     position: absolute;
-    left: 12%;
+    left: 20%;
     top: 35%;
   }
-  .hero-text p {
-    font-size: 25px;
+
+  .hero-text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
     font-weight: 500;
-    max-width: 600px;
-    line-height: 1.5;
-    color: #f4fb6e;
+    color: #000000;
     position: absolute;
-    left: 13%;
-    top: 46%;
+    left: 20%;
+    top: 43%;
+  }
+
+  .hero-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 500px;
+    line-height: 1.5;
+    color: #000000;
+    position: absolute;
+    left: 20.5%;
+    top: 54%;
   }
 
   .hero-btn {
-    background: #fff;
+    background: #f4fb6e;
     color: rgb(0, 0, 0);
     padding: 14px 25px;
     font-size: 16px;
@@ -46,9 +59,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    top: 50px;
-    right: 58vh;
+    position: absolute;
+    top: 61%;
+    left: 20%;
   }
 
   .hero-btn img{

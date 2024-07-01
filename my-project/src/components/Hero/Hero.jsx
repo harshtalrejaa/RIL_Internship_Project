@@ -8,11 +8,12 @@ const Hero = () => {
     <section id="hero">
       <div className="hero">
         <div className="hero-text">
-          <h1>Unlock Your Potential:</h1>
-          <p>Expert-Led Training for a Brighter Future!</p>
+          <h1>Empower Your Knowledge, </h1>
+          <h2>Unleash Your Potential</h2>
+          <p>Get Expert-Led Training for a Brighter Future!</p>
         </div>
         <a href="https://www.ril.com/"><button className="hero-btn">
-          Explore more <img src={dark_arrow} alt="" />
+          Explore More <img src={dark_arrow} alt="" />
         </button></a>
       </div>
     </section>
