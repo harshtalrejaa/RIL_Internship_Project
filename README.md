@@ -25,3 +25,14 @@ Web Development, Problem solving, Creative approach
 
 **Other Tools:** VS studio, Discord, Excaligraphy, Canva
 
+
+## To run the project: 
+Go to vercel 
+OR
+Create a codespace on main
+run: 
+cd my-project
+npm i
+npm run dev
+
+
